@@ -1,6 +1,5 @@
 import { Input } from "./_components/ui/input"
 import { Button } from "./_components/ui/button"
-import { Card, CardContent } from "./_components/ui/card"
 import { Header } from "./_components/header"
 import BarbershopItem from "./_components/barbershop-item"
 import { quickSearchOptions } from "./_constants/search"
@@ -78,16 +77,6 @@ const Home = async () => {
           ))}
         </div>
       </div>
-      {/* Footer */}
-      <footer>
-        <Card>
-          <CardContent className="px-5 py-6 text-center">
-            <p className="text-sm text-gray-400">
-              © 2023 Copyright <span className="font-bold">CBM Barber</span>
-            </p>
-          </CardContent>
-        </Card>
-      </footer>
     </div>
   )
 }
